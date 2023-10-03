@@ -2,6 +2,4 @@
 This is Lab 2 for Nathan Smith
 
 # To-Do
-Change personal picture
-Fix header layout
-Add archives
+Submit on VLE

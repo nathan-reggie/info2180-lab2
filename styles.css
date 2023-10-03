@@ -13,11 +13,7 @@ div.container {
 
 main {
     display: grid;
-    grid-template-columns: 5% 95%;
-}
-
-img.nathan {
-    height: 100;
+    grid-template-columns: 10% 90%;
 }
 
 header {
@@ -29,6 +25,11 @@ header {
 
 header p {
     color: #FFFFFF;
+}
+
+header h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .flex-container {
@@ -43,6 +44,15 @@ header p {
     margin-bottom: 50px;
 }
 
+img.nathan {
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+p.dateauthor {
+    margin-top: 16px;
+}
+
 .dateauthor {
     color:#718096;
 }
@@ -52,13 +62,15 @@ header p {
     height: 150px;
 }
 
-.about {
-    background-color: #E2E8F0;
-    padding: 5px;
-}
-
 .blogs {
     grid-row: 2
+}
+
+
+div.blogs h2{
+    font-size: 32px;
+    color:#48bb78;
+    margin-bottom: 16px;
 }
 
 #blog1 {
@@ -72,11 +84,35 @@ header p {
     grid-row: 3;
 }
 
+div#blog2 img.blogpic {
+    float: left;
+}
+
 aside {
     grid-column: 2;
     grid-row: 2;
 }
 
+aside h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+aside a{
+    color:#4299E1;
+}
+
+.about {
+    background-color: #E2E8F0;
+    padding: 10px;
+}
+
+.about h3{
+    color: #000000
+}
+
+.lists h3{
+    color:#48bb78
+}
 
 footer {
     background-color: #2C5282;
@@ -86,4 +122,5 @@ footer {
 
 footer p {
     color: #FFFFFF;
+    margin-left: 100px;
 }
